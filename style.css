@@ -1,0 +1,43 @@
+/* body{
+    display: flex;
+    justify-content: column;
+} */
+
+.header-container{
+    background-color: #1F2937;
+    padding: 10px 400px;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.link-container{
+    display: flex;
+    justify-content: ;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-container{
+    display: flex;
+}
