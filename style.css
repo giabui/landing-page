@@ -8,13 +8,12 @@ body{
     align-items: center;
 }
 
+
 .first-container{
     background-color: #1F2937;
     padding-top: 10px;
     padding-right: 200px;
     padding-left: 200px;
-  
-    
 }
 
 .header{
@@ -42,11 +41,13 @@ p, ul{
     margin: 0;
     padding:0;
 }
+
 .link-container{
     display: flex;
     margin: 0;
     padding:0;
 }
+
 ul{
     list-style-type: none;
     display: flex;
@@ -81,7 +82,7 @@ a {
 .awesome-text > p{
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
+    margin: 5px 0;
 }
 
 .awesome-container > button{
@@ -120,7 +121,6 @@ button{
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
-    
 }
 
 .info-img {
@@ -137,12 +137,11 @@ button{
     z-index: 2;
 }
 
-.info-img > img{
+.info-img > a > img{
     width: 200px;
     height: 220px;
     border: 4px solid #3882F6;
     border-radius: 20px;
-    
 }
 
 .info-title{
@@ -157,6 +156,7 @@ button{
     color: #5f6061;
     margin: 10px;
 }
+
 
 .third-container{
     background-color: #E5E7EB;
@@ -177,8 +177,8 @@ button{
     font-weight: bold;
     color: #1F2937;
     align-self: flex-end;
-   
 }
+
 
 .fourth-container{
     display: flex;
