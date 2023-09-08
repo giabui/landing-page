@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     padding:0;
+    font-family: "Times New Roman", sans-serif ;
 }
 
 .first-container{
@@ -106,13 +107,17 @@ button{
 .second-container{
     display:flex;
     flex-direction: column;
+    justify-content: center ;
     align-items: center;
+    gap: 20px;
 }
 
 .four-images-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     gap: 50px;
+    
 }
 
 .info-img{
