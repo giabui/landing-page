@@ -4,6 +4,8 @@ body{
     margin: 0;
     padding:0;
     font-family: "Times New Roman", sans-serif ;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-container{
@@ -110,6 +112,7 @@ button{
     justify-content: center ;
     align-items: center;
     gap: 20px;
+    margin: 100px;
 }
 
 .four-images-container{
@@ -120,7 +123,7 @@ button{
     
 }
 
-.info-img{
+.info-img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,7 +156,7 @@ button{
 .third-container{
     background-color: #E5E7EB;
     padding: 100px;
-    margin: 100px 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
