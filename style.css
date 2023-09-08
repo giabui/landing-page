@@ -129,7 +129,12 @@ button{
     align-items: center;
     justify-content: center;
     text-align: center;
-    
+    transition: .5s;
+}
+
+.info-img:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
 
 .info-img > img{
